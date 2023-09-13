@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+@font-face {
+  font-family: 'a';
+  src: url("fuente1.ttf");
+
+}
+
+@font-face {
+  font-family: 'b';
+  src: url("fuente3.ttf");
+
+}
+body{
+	background-image: url("fonde.jpg");
+text-shadow: 2px 2px 2px black;	
+}
+
+.a{font-family: 'b';
+	background: rgba(0,0,0,0.8);
+	color:white;text-shadow: 2px 2px 2px black;	
+	font-size:25px;
+	letter-spacing: 1px;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+h1{font-family: 'a';
+margin-left: 18%;
+}
+
+form input{
+	font-size:30px;
+}
